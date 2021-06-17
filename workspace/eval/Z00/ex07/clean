@@ -1,0 +1,2 @@
+#finds in directories, name between #, 
+find . -name "#*#" -type f -print -delete -o -name "*~" -type f -print -delete

@@ -1,0 +1,7 @@
+#command that:
+#- shows all directories and files in current directory
+#- hides hidden + ./..  (-A)
+#- separated by comma (-m)
+#- ordered by access time (-t)
+#- directory names followed by /. (-p)
+ls -mpu --hide=.*
